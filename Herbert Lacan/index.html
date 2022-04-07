@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="access"
+            href="https://accounts.google.com/ServiceLogin?hl=es-419&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Acceder</a>
+        <span class="material-icons md-18 apps icon">apps</span>
+        <a class="link" href="https://www.google.com.gt/imghp?hl=es&authuser=0&ogbl">Imagenes</a>
+        <a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
+        <p id="date">Today Date</p>
+        <p onclick="randomColor()">Color</p>
+    </div>
+
+    <div class="content">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="">
+
+        <div class="searchContainer">
+            <span class="material-icons icon">search</span>
+            <input id="search-input" class="search" />
+            <span class="material-icons icon pointer" onclick="voiceSearch()">settings_voice</span>
+        </div>
+
+        <div class="row">
+            <button onclick="search()">Buscar con Google</button>
+            <button onclick="luckySearch()">Me siento con suerte</button>
+        </div>
+
+        <div class="language">
+            <p>Ofrecido por Google en: <a
+                    href="https://www.google.com/setprefs?sig=0_A2xkMZUn3pkM0BUfuhx-X_gzX-s%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiLvJ-Zsv72AhXmZzABHdAhC7wQ2ZgBCA4">English</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="country">
+            <a href="">Guatemala.</a>
+        </div>
+        <div class="about">
+            <div>
+                <a href="https://about.google/?utm_source=google-GT&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                <a href="https://www.google.com/intl/es-419_gt/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+            </div>
+
+            <div>
+                <a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                <a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                <a href="">Preferencias</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

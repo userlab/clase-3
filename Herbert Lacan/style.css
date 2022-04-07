@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    display: flex;   
+    flex-direction: row-reverse; 
+    align-items: center;
+}
+
+.navbar > * {
+    margin: 10px;
+}
+
+a, p  {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 18px 0px 18px;
+    width: 40%;
+    height: 46px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+    border-color: gray;
+}
+
+input{
+    border-style: none;
+    width: 100%;
+    padding: 7px;
+    padding-left: 7px;
+}
+
+input:focus{
+    outline: none;
+    font-size: 17px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.content > *{
+    margin-bottom: 15px;
+}
+
+.row{
+    display: flex;
+}
+
+.row > button {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 170px;
+    height: 36px;
+    border-style: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.row > button:hover {
+    border-style: solid;
+    border-width: thin;
+}
+
+.logo {
+    margin-top: 10%;
+    width: 272;
+    height: 92;
+}
+
+.apps{
+    padding: 4px;
+}
+
+.icon{
+    color: gray;
+}
+
+.access{
+    background-color: #1a73e8;
+    color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.access:hover{
+    background-color: skyblue;
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+footer > div{
+    height: 46px;
+    font-size: 14px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: #dadce0;
+    padding-left: 10px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about > div > a {
+    margin: 20px ;
+}
+
+.pointer{
+    cursor: pointer;
+}
