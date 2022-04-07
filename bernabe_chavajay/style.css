@@ -1,0 +1,49 @@
+body{
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar > * {
+    margin-left: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons > * {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.input {
+    border-radius: 15px;
+}
