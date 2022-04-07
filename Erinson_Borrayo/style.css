@@ -21,6 +21,7 @@ body {
 
 .content > * {
   margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .row {
@@ -33,17 +34,21 @@ body {
 }
 
 .logo {
-  margin-top: 200px;
+  margin-top: 205px;
 }
 
 .search {
   background: transparent;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
-  width: 500px;
+  width: 533px;
   height: 44px;
   padding: 0 20px;
   font-size: 15px;
+
+  background: url(https://img.icons8.com/ios-glyphs/2x/search.png) no-repeat scroll 15px 12px;
+  background-size: 16px;
+  padding-left: 29px;
 }
 
 .search:hover {
@@ -65,7 +70,7 @@ body {
   color: #3c4043;
   font-family: arial,sans-serif;
   font-size: 14px;
-  margin: 11px 4px;
+  margin: 5px 4px;
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
@@ -76,7 +81,7 @@ body {
 }
 
 .nav-bar .link {
-  margin: 11px 4px;
+  margin: 3px 7px;
   display: flex;
   align-items: center;
   color: rgba(0,0,0,0.87);
@@ -95,4 +100,18 @@ body {
 
 .without-underline:hover {
   text-decoration: underline;
+}
+
+.container-svg svg{
+  width: 25px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.user-svg {
+  border: 2px solid #ecececec;
+  border-radius: 15px;
+  padding: 5px;
 }
