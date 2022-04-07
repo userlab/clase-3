@@ -1,0 +1,52 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav-bar > * {
+    margin-left: 15px;
+    margin-right: 1%;
+    margin-top: 1%;
+   
+}
+
+.content_cm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_cm > * {
+    margin-bottom: 20px;
+}
+
+.row_cm {
+    display: flex;
+}
+
+.row_cm > button {
+    margin-left: 15px;
+}
+
+.logo {
+    margin-top: 250px;
+}
+#buscar{
+   border-radius: 1rem;
+   border-color: rgb(224, 215, 215);
+   width: 500px;
+   height: 40px;
+   border-style:solid;
+     
+}
+
+.under{
+    text-decoration: none;
+    
+ }
+
+ #btnf1,#btnf2{
+   border-radius: 2px;
+   background-color: #f8f9fa;
+ }
+ 
