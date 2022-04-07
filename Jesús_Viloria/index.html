@@ -6,14 +6,15 @@
     <title>Google</title>
 
     <link rel="stylesheet" href="style.css">
+  
   </head>
 
   <body>
     <div class="nav-bar">
 
-      <button>Iniciar sesión</button>
+      <button onclick="loging()">Iniciar sesión</button>
 
-      <div class="invento">
+      <div class="invento" onclick="warnig()">
         <div class="circulo 1"> </div>
         <div class="circulo 2"> </div>
         <div class="circulo 3"> </div>
@@ -39,12 +40,12 @@
         width="272"
       />
 
-      <input class="buscador"/>
+      <input class="buscador" id="searchButtom"/>
 
       <div class="row">
-        <button>Google Search</button>
+        <button onclick="search()">Google Search</button>
 
-        <button>I´m Feeling Lucky</button>
+        <button onclick="getLucky()">I´m Feeling Lucky</button>
       </div>
 
       <div class="ofrecido">
@@ -53,5 +54,8 @@
         <a href="https://www.google.com/setprefs?sig=0_KPNkEfiG_aV_JEvdFPPPG8zQB4U%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjy9JqT_f32AhWGKUQIHc5xAbEQ2ZgBCA4">English</a>
       </div>
     </div>
+
+    <script src="/Jesús_Viloria/script.js"></script>
+  
   </body>
 </html>
