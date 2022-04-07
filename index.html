@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
 
-    <title>Google</title>
+<head>
+  <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="style.css">
-  </head>
+  <title>Google</title>
 
-  <body>
-    <div class="nav-bar">
-      <button>Acceder</button>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-      <a href="https://www.google.com.mx/imghp">Imágenes</a>
+</head>
 
-      <a href="https://mail.google.com/mail/">Gmail</a>
+<body>
+  <div class="nav-bar">
+    <button class="login">Iniciar sesión</button>
+
+    <span class="material-icons">
+      apps
+    </span>
+    <a class="link" href="https://www.google.com.mx/imghp">Imágenes</a>
+
+    <a class="link" href="https://mail.google.com/mail/">Gmail</a>
+  </div>
+
+  <div class="content">
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+      height="92" width="272" />
+
+    <input class="input" id="text" onclick="getInput()"/>
+
+    <div class="row">
+      <button class="link" id="searchBtn" onclick="search()">Buscar con Google</button>
+
+      <button class="link" href="https://www.google.com/doodles">Me siento con suerte</button>
     </div>
 
-    <div class="content">
-      <img
-        class="logo"
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        height="92"
-        width="272"
-      />
+    <div class="info">
+      Ofrecido por google en:
 
-      <input />
-
-      <div class="row">
-        <button>Buscar con Google</button>
-
-        <button>Me siento con suerte</button>
-      </div>
-
-      <div>
-        Ofrecido por google en:
-
-        <a
-          href="https://www.google.com/setprefs?sig=0_FqGgb0ng12wivfa8uIEQ0dwGOZU%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiN_p_H3f32AhWaTjABHSz2BCMQ2ZgBCA4"
-          >English</a
-        >
-      </div>
+      <a class="link"
+        href="https://www.google.com/setprefs?sig=0_KPNkEfiG_aV_JEvdFPPPG8zQB4U%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjy9JqT_f32AhWGKUQIHc5xAbEQ2ZgBCA4">English</a>
     </div>
-  </body>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
