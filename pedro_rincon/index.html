@@ -5,12 +5,12 @@
 
     <title>Google</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="nav-bar">
-      <button>Acceder</button>
+      <button onclick="login()">Acceder</button>
 
       <a href="https://www.google.com.mx/imghp">Imágenes</a>
 
@@ -25,22 +25,24 @@
         width="272"
       />
 
-      <input />
-
-      <div class="row">
-        <button>Buscar con Google</button>
-
-        <button>Me siento con suerte</button>
+      <div class="searchbox">
+        <input class="search" onkeypress="PressEnter(event)" value="">
       </div>
 
-      <div>
-        Ofrecido por google en:
+      <div class="row">
+        <button onclick="search()" >Buscar con Google</button>
+        <button onclick="luck()">Me siento con suerte</button>
+      </div>
 
+      <div class="languages">
+        Ofrecido por Google en:
         <a
           href="https://www.google.com/setprefs?sig=0_FqGgb0ng12wivfa8uIEQ0dwGOZU%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiN_p_H3f32AhWaTjABHSz2BCMQ2ZgBCA4"
           >English</a
         >
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
+
 </html>
