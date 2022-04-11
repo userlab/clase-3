@@ -1,0 +1,145 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.nava{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 0.85rem;
+}
+
+.nava:hover{
+    text-decoration: underline;
+}
+
+.nav-bar {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.invento {
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 6px 6px 6px ;
+    grid-template-rows: 6px 6px 6px;
+    
+}
+
+.circulo{
+
+    align-content: center;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: hsl(213, 5%, 39%);
+}
+
+.invento:hover {
+    background-color: hsl(213, 5%, 39%, 10%);
+}
+
+.nav-bar>button{
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 4px;
+    width: 133.133px;
+    height: 36px;
+    border: none;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.nav-bar>button:hover{
+    background-color: #3785eb;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 4px;
+    width: 133.133px;
+    height: 36px;
+    border: none;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.nav-bar > * {
+    margin-left: 15px;
+}
+
+.content {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > * {
+    margin-bottom: 20px;
+}
+
+.row {
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.row > button {
+    width: 147.41px;
+    height: 36px;
+    margin: 6px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.row > button:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), 1px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    margin: 6px;
+    margin-bottom: 30px;
+}
+
+.buscador {
+    width: 85%;
+    max-width: 584px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.buscador:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.19);
+}
+
+.buscador:disabled{
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.19);
+}
+
+.ofrecido{
+    font-size: 12px;
+    color: #3c4043;
+}
+
+.ofrecido>a{
+    text-decoration: none;
+}
+
+.ofrecido>a:hover{
+text-decoration: underline;
+}
