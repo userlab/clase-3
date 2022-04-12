@@ -3,7 +3,7 @@ function searchg(){
     window.location.href='https://www.google.com/search?q='+search.value;
 }
 
-const luck = () =>{
+const lucks= () =>{
     window.location.href='https://www.google.com/doodles';
 }
 
