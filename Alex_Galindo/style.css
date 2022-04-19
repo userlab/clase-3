@@ -1,0 +1,88 @@
+.nav-bar {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav-bar>* {
+    margin-left: 15px;
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+.nav-bar>button {
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient(top, #4387fd, #4683ea);
+    color: #fff;
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+
+.nav-bar>a {
+   
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+
+}
+
+.content {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content>* {
+    margin-bottom: 20px;
+}
+
+.row {
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.row>button {
+    margin-left: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.logo {
+    margin-top: 200px;
+}
+
+input {
+
+    width: 35%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/500px-Search_Icon.svg.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-radius: 25px;
+}
