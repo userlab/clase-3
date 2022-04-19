@@ -1,0 +1,49 @@
+.nav-bar {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-bar>* {
+  margin-left: 15px;
+}
+
+.content {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content>* {
+  margin-bottom: 20px;
+}
+
+.row {
+  /* border: 1px solid green; */
+  display: flex;
+}
+
+.row>button {
+  margin-left: 15px;
+}
+
+.logo {
+  margin-top: 200px;
+}
+
+.search {
+  width: 40%;
+  border-radius: 25px;
+  height: 40px;
+}
+
+.foo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.foo>* {
+  margin-left: 50px;
+}
